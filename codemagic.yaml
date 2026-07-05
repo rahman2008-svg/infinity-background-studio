@@ -1,0 +1,17 @@
+workflows:
+  android:
+    name: Android Build
+    max_build_duration: 60
+
+    environment:
+      java: 21
+
+    scripts:
+      - name: Build Debug APK
+        script: |
+          chmod +x gradlew
+          ./gradlew assembleDebug
+
+    artifacts:
+      - app/build/outputs/**/*.apk
+      - app/build/outputs/**/*.aab

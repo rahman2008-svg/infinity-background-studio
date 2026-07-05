@@ -1,0 +1,6 @@
+{
+  "name": "Infinity Background Studio",
+  "description": "An advanced, rule-based background removal and photo editing studio. Remove and replace backgrounds, erase objects, retouch portraits, and make ID photos with professional layers, custom text, and custom backgrounds.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
